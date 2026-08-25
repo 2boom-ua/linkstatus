@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Link Status"
+  },
+  "appDescription": {
+    "message": "Check link status on hover"
+  },
+  "menuCheckLink": {
+    "message": "Check this link"
+  },
+  "menuDisableDomain": {
+    "message": "Disable on this domain"
+  },
+  "menuEnableDomain": {
+    "message": "Enable on this domain"
+  }
+}

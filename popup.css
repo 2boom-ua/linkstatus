@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-popup: #f9fbfe;
+  --text-color: #1a1a1a;
+  --border-default: #d5d5d5;
+  --border-200: #a8e6cf;
+  --border-300: #ffd3b6;
+  --border-400: #ffaaa5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-popup: #0d1117;
+    --text-color: #f5f5f5;
+    --border-default: #666666;
+    --border-200: #6baa8a;
+    --border-300: #c4976e;
+    --border-400: #c47a75;
+  }
+}
+
+body {
+  width: 192px;
+  padding: 12px 14px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  min-height: 60px;
+  border-left: 4px solid var(--border-default);
+  background: var(--bg-popup);
+  color: var(--text-color);
+}
+
+body.border-200 { border-left-color: var(--border-200); }
+body.border-300 { border-left-color: var(--border-300); }
+body.border-400 { border-left-color: var(--border-400); }
+body.border-default { border-left-color: var(--border-default); }
+
+.url {
+  font-size: 13px;
+  font-weight: 400;
+  word-break: break-all;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.status {
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status .emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.status .emoji svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.status .separator {
+  margin: 0 4px;
+}

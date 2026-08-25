@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Статус посилань"
+  },
+  "appDescription": {
+    "message": "Перевірка статусу посилань при наведенні"
+  },
+  "menuCheckLink": {
+    "message": "Перевірити посилання"
+  },
+  "menuDisableDomain": {
+    "message": "Вимкнути на цьому домені"
+  },
+  "menuEnableDomain": {
+    "message": "Увімкнути на цьому домені"
+  }
+}
